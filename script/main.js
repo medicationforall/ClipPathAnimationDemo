@@ -15,7 +15,7 @@ $(document).ready(function(){
     var shape= $(this).data('shape');
     console.log('clicked shape',shape);
     
-    var fromShapes = ['square','rabet','triangle','pentagon'];
+    var fromShapes = ['square','rabbet','triangle','pentagon'];
     
     for(var i=0,shape;(fromShape=fromShapes[i]);i++){
       if(fromShape !== shape && shape !== 'circle' && $('.shape').hasClass(fromShape)){
@@ -26,6 +26,6 @@ $(document).ready(function(){
     }
      
     
-    $('.shape').removeClass('square circle triangle pentagon rabet').addClass(shape);
+    $('.shape').removeClass('square circle triangle pentagon rabbet').addClass(shape);
   });
 });

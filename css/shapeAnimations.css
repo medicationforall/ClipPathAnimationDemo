@@ -17,7 +17,7 @@
   }
 }
 
-@keyframes square-to-rabet{
+@keyframes square-to-rabbet{
   0% {
     clip-path: polygon(0% 0%,0% 0%,0% 0%,100% 0%,100% 0%,100% 0%,100% 100%,100% 100%,100% 100%,0% 100%,0% 100%,0% 100%);
   }
@@ -37,7 +37,7 @@
   }
 }
 
-@keyframes triangle-to-rabet{
+@keyframes triangle-to-rabbet{
   0% {
     clip-path: polygon(50% 0%,50% 0%,50% 0%,0% 100%,0% 100%,0% 100%,0% 100%,0% 100%,100% 100%,100% 100%,100% 100%,100% 100%);
   }
@@ -48,7 +48,7 @@
 
 
 /*Pentagon*/
-@keyframes pentagon-to-rabet{
+@keyframes pentagon-to-rabbet{
   0% {
     clip-path: polygon(50% 0%,50% 0%,50% 0%,100% 38%,100% 38%,100% 38%,82% 100%,82% 100%,18% 100%,18% 100%,0% 38%,0% 38%);
   }
@@ -67,8 +67,8 @@
   animation: square-to-pentagon linear 0.5s;
 }
 
-.square-to-rabet{
-  animation: square-to-rabet linear 0.5s;
+.square-to-rabbet{
+  animation: square-to-rabbet linear 0.5s;
 }
 
 
@@ -81,8 +81,8 @@
   animation: triangle-to-pentagon linear 0.5s;
 }
 
-.triangle-to-rabet{
-  animation: triangle-to-rabet linear 0.5s;
+.triangle-to-rabbet{
+  animation: triangle-to-rabbet linear 0.5s;
 }
 
 
@@ -95,20 +95,20 @@
   animation: triangle-to-pentagon linear reverse 0.5s;
 }
 
-.pentagon-to-rabet{
-  animation: pentagon-to-rabet linear 0.5s;
+.pentagon-to-rabbet{
+  animation: pentagon-to-rabbet linear 0.5s;
 }
 
 
-/*Rabet*/
-.rabet-to-square{
-  animation: square-to-rabet linear reverse 0.5s;
+/*rabbet*/
+.rabbet-to-square{
+  animation: square-to-rabbet linear reverse 0.5s;
 }
 
-.rabet-to-triangle{
-  animation: triangle-to-rabet linear reverse 0.5s;
+.rabbet-to-triangle{
+  animation: triangle-to-rabbet linear reverse 0.5s;
 }
 
-.rabet-to-pentagon{
-  animation: pentagon-to-rabet linear reverse 0.5s;
+.rabbet-to-pentagon{
+  animation: pentagon-to-rabbet linear reverse 0.5s;
 }
